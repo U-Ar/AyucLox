@@ -173,7 +173,7 @@ static Token string() {
 }
 
 Token scanToken() {
-    skipWhiteSpace();
+    skipWhitespace();
     scanner.start = scanner.current;
 
     if (isAtEnd()) return makeToken(TOKEN_EOF);
