@@ -21,7 +21,7 @@ if(DEBUG_BUILD)
 endif()
 
 # Enable all warnings
-target_compile_options(ayuclox PRIVATE -Wall -Wextra)
+# target_compile_options(ayuclox PRIVATE -Wall -Wextra)
 
 # Testing option
 option(BUILD_TESTS "Build with test flags" OFF)
